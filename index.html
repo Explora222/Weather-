@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mzansi Weather - Weather Insights</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Mzansi Weather</div>
+            <div class="search-container">
+                <input type="text" id="city-input" placeholder="Enter city name...">
+                <button id="search-btn" class="btn">Search</button>
+            </div>
+        </nav>
+    </header>
+
+    <section id="current-weather" class="weather-card">
+        <h2>Current Weather</h2>
+        <div id="current-info">
+            <p id="city-name"></p>
+            <img id="Weather.png" src="Weather.png" alt="Weather Icon">
+            <p id="temperature"></p>
+            <p id="description"></p>
+            <p id="humidity"></p>
+            <p id="wind"></p>
+        </div>
+    </section>
+
+    <section id="forecast" class="forecast-container">
+        <h2>5-Day Forecast</h2>
+        <div id="forecast-items"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mzansi Weather. All rights reserved.</p>
+        <p>Designed By Shumani Monyai</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
